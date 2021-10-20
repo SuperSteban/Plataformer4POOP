@@ -16,10 +16,10 @@ public class MenuHandler : MonoBehaviour
 
     private void Awake()
     {
-        
-            Instanciate = this;
-            DontDestroyOnLoad(this.gameObject);
-        
+        Instanciate = this;
+        DontDestroyOnLoad(this);
+
+
     }
 
     public void SetName() 
